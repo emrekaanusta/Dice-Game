@@ -1,0 +1,226 @@
+#title{
+  background-color: #FF4C68;
+  text-align: left;
+}
+body{
+  font-family: Montserrat;
+}
+h1{
+  font-family: 'Oswald';
+  line-height: 1.5;
+  font-size: 4rem;
+  color: white;
+  font-weight: 900;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 4rem;
+
+}
+p{
+  color: #8f8f8f;
+}
+
+.navbar-brand{
+  padding-left: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-container{
+  padding-left: 0;
+  padding-bottom: 1%;
+
+  width: 100%;
+}
+
+/* Navigation Bar */
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.navbar{
+  padding-left: 0;
+  padding-bottom: 3%;
+  padding-right: 0;
+}
+.row{
+  padding-top: 5%;
+  margin-top: 1%;
+}
+/* download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title-image */
+.title-image{
+  width: 300px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.fa-solid{
+  color: #ef8172;
+  padding-bottom: 10px;
+
+}
+.feature-title{
+  font-size: 1.75rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.fa-solid:hover{
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials {
+
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-images{
+  width: 15%;
+  margin: 20px 50px 20px;
+}
+.carousel-item{
+
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+.card{
+  margin: 5%;
+}
+
+.fa-solid{
+  padding-right: 5%;
+}
+
+.card-body{
+  padding-left: 15%;
+  text-align: left;
+
+}
+.fa-xmark{
+  padding-right: 7%;
+  color: red;
+}
+
+.fa-check{
+  color: green;
+}
+
+.card-header{
+  text-align: center;
+
+}
+
+.row{
+  padding: 4% 5%;
+}
+
+.free-button{
+  width: 100%;
+}
+.money-button{
+  width: 100%;
+}
+
+#pricing{
+  padding: 50px 100px;
+}
+.price-title{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+@media (max-width: 1280px){
+.title-image{
+  position: static;
+  transform: rotate(0);
+}
+#title{
+  text-align: center;
+}
+}
+
+/* call to action */
+
+.cta{
+  background-color: #FF4C68;
+  text-align: center;
+  padding: 5% 10%;
+
+}
+.cta-title{
+  color: white;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  padding: 0 15% 5% 15%;
+}
+.btn{
+  margin: 2%;
+}
+
+/* footer */
+
+.footer-div{
+  text-align: center;
+  background-color: white;
+  padding: 5%;
+}
+.fas{
+  padding: 3%;
+  color: black;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+.last-footnote{
+  padding-bottom: 2%;
+  padding-top: 3%;
+}
